@@ -26,7 +26,3 @@ class TelephoneFinder {
         return result.toTypedArray()
     }
 }
-
-fun main() {
-    TelephoneFinder().findAllNumbersFromGivenNumber("8675309")?.forEach { println(it) }
-}
